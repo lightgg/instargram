@@ -1,0 +1,85 @@
+.thumbnail_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+#stat-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 5px 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+.circle-pic-profile {
+    width: 50px;
+    height: 50px;
+}
+
+.circle-pic-highlight {
+    width: 35px;
+    height: 35px;
+
+    margin: 0 auto;
+}
+
+.circle-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.highlight-area {
+    display: grid;
+    grid-template-columns: 45px 45px 1fr;
+}
+
+.highlight {
+    text-align: center;
+}
+
+#profile {
+        display: grid;
+        grid-template-columns: 1fr 3.5fr;
+}
+
+#profile-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;   
+}
+
+.half_bottle {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+button {
+    height: 80%;
+    width: 95%;
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 4fr 7fr 4fr;
+}
+
+#top img {
+    height: 30px;
+    margin: 0 auto;
+    object-fit: contain;
+}

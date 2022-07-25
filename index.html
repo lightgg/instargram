@@ -1,16 +1,19 @@
 <html>
     <head>
-
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div>
+        <div id="top" style="margin-left: -50px; margin-top: 10px;">
             <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" />
             <input type="search" />
+            <div></div>
         </div>
-        <div>
-            <img src="./image/profile.jpg" width="50px;"/>
-            <div>
-                <h2>half_bottle</h2>
+        <div id="profile">
+            <div class="circle-pic-profile">
+                <img src="./image/profile.jpg" class="circle-pic" />
+            </div>
+            <div id="profile-info">
+                <div class="half_bottle">half_bottle</div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -21,46 +24,56 @@
             작가
         </p>
         <p>lightgg.github.io</p>
-        <div>
-            <div>
-                <div>
-                    <img src="./image/hl1.jpg" style="width:70px;height:35px;" />
+        <div class="highlight-area">
+            <div class="highlight">
+                <div class="circle-pic-highlight">
+                    <img src="./image/hl1.jpg" class="circle-pic" />
                 </div>
                 <div>
                     😍
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src="./image/hl2.jpg" style="width:70px;height:35px;" />
+            <div class="highlight">
+                <div class="circle-pic-highlight">
+                    <img src="./image/hl2.jpg" class="circle-pic" />
                 </div>
                 <div>
                     😂
                 </div>
             </div>
+            <div></div>
         </div>
-        <p>
-            게시물
-            팔로워
-            팔로우
-            133
-            408
-            189
-        </p>
-        <div>아이콘이 들어갈 자리</div>
-        <div>
-            <input type="datetime-local" />
+        <div id="stat-bar">
+            <div class="stat">
+                게시물<br />
+                133
+            </div>
+            <div class="stat">
+                팔로워<br />
+                408
+            </div>
+            <div class="stat">
+                팔로우<br />
+                189
+            </div>
         </div>
+
         <div>
-            <img src="./image/thumbnails/1.jpg" width="32%" />
-            <img src="./image/thumbnails/2.jpg" width="32%" />
-            <img src="./image/thumbnails/3.jpg" width="32%" />
-            <img src="./image/thumbnails/4.jpg" width="32%" />
-            <img src="./image/thumbnails/5.jpg" width="32%" />
-            <img src="./image/thumbnails/6.jpg" width="32%" />
-            <img src="./image/thumbnails/7.jpg" width="32%" />
-            <img src="./image/thumbnails/8.jpg" width="32%" />
-            <img src="./image/thumbnails/9.jpg" width="32%" />
+            <div class="thumbnail_grid">
+                <img class="thumbnail" src="./image/thumbnails/1.jpg" />
+                <img class="thumbnail" src="./image/thumbnails/2.jpg" />
+                <img class="thumbnail" src="./image/thumbnails/3.jpg" />
+            </div>
+            <div class="thumbnail_grid">
+                <img class="thumbnail" src="./image/thumbnails/4.jpg" />
+                <img class="thumbnail" src="./image/thumbnails/5.jpg" />
+                <img class="thumbnail" src="./image/thumbnails/6.jpg" />
+            </div>
+            <div class="thumbnail_grid">
+                <img class="thumbnail" src="./image/thumbnails/7.jpg" />
+                <img class="thumbnail" src="./image/thumbnails/8.jpg" />
+                <img class="thumbnail" src="./image/thumbnails/9.jpg" />
+            </div>
         </div>
     </body>
 </html>
